@@ -121,3 +121,7 @@ footer{
 .amarelo{
     color: rgb(201, 201, 17)
 }
+
+section{
+    height: 127px; 
+}
