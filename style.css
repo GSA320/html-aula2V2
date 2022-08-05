@@ -1,0 +1,123 @@
+:root {
+    --corprincipal: rgb(13, 201, 154);
+    --corsecundaria: rgb(100, 100, 100);
+    --corfundos: rgb(220, 255, 243);
+    --corpainel: white;
+}
+
+body {
+    color: var(--corsecundaria);
+    margin: 0px;
+    font-family: Helvetica;
+    align-content: center;
+}
+
+header{
+    background-color: var(--corprincipal);
+    margin: 0px;
+    padding: 20px;
+    color: var(--corpainel);
+    text-align: center;
+}
+
+nav{
+    background-image: url('./images/linguagens-front-end.webp');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%; height: 400px;
+}
+
+article{
+    width: 32.91%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#stylehtml:hover{
+    background-color: rgb(248, 240, 233);
+    border-radius: 3px;
+}
+
+#fundohtml{
+    background-color: rgb(243, 222, 196);
+}
+
+#fundocss{
+    background-color: rgb(210, 225, 252);
+}
+
+#fundojs{
+    background-color: rgb(243, 238, 210);
+}
+
+#stylecss:hover{
+    background-color: rgb(220, 227, 255);
+    border-radius: 3px;
+}
+
+#stylejs:hover{
+    background-color: rgb(243, 240, 199);
+    border-radius: 3px;
+}
+
+h3{
+    text-align: center;
+    color: var(--corprincipal);
+    height: 32px;
+}
+
+article h4{
+    color: var(--corprincipal);
+    border-bottom: 2px solid var(--corprincipal);
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+p{
+    color: rgb(100, 100, 100);
+    background-color: rgb(220, 255, 243);
+    padding: 13px;
+    text-align: justify;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(13, 201, 154);
+    border-radius: 5px;
+    height: 130px;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgb(220, 255, 243);
+    color: rgb(13, 201, 154);
+    padding: 3.5px;
+    border-radius: 2.5px;
+}
+
+a:hover{
+    background-color: rgb(13, 201, 154);
+    color: rgb(220, 255, 243);
+}
+
+footer{
+    background-color: rgb(221, 216, 216);
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    border-bottom: 20px;
+}
+
+.laranja{
+    color: orangered
+}
+
+.azul{
+    color:rgb(55, 122, 199)
+}
+
+.amarelo{
+    color: rgb(201, 201, 17)
+}
